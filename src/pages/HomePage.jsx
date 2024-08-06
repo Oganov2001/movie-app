@@ -9,7 +9,6 @@ const HomePage = () => {
 
   const handleSearch = (query) => {
     fetchMovies(query).then((response) => {
-      console.log(response.data.results);
       setMovies(response.data.results || []);
     });
   };
