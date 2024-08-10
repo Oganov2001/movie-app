@@ -26,5 +26,3 @@ dist-ssr
 # Misc.
 .env
 .env.production
-*.png
-*.svg
